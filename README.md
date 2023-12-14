@@ -1,5 +1,6 @@
 # Connecting MongoDB to Express App
-# detailed line by line comments can be found on the source code
+
+## detailed line by line comments can be found on the source code
 
 This guide explains how to connect MongoDB to an Express app using Mongoose, a MongoDB object modeling tool designed to work in an asynchronous environment.
 
@@ -9,6 +10,11 @@ Before proceeding, make sure you have the following installed:
 
 - [Node.js](https://nodejs.org/)
 - [MongoDB](https://www.mongodb.com/try/download/community)
+
+## Dependencies
+```unset
+npm i express mongoose mongodb nodemon
+```
 
 ## Step 1: Set Up MongoDB Connection
 
